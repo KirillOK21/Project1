@@ -4,8 +4,8 @@
 #include "quicktime_mov.h"
 #include <fstream>
 
-//std::ifstream is("E:\clip03.mov", std::ifstream::binary);
-std::ifstream is("E:\keep_right.MOV", std::ifstream::binary);
+std::ifstream is("E:\clip03.mov", std::ifstream::binary);
+//std::ifstream is("E:\keep_right.MOV", std::ifstream::binary);
 
 kaitai::kstream ks(&is);
 
