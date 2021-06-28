@@ -10,8 +10,6 @@ std::ifstream is("E:\clip03.mov", std::ifstream::binary);
 kaitai::kstream ks(&is);
 
 quicktime_mov_t data(&ks);
-int a;
-
 
 int main()
 {
